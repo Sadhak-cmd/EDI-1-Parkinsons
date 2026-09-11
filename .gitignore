@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Large data files - don't upload raw datasets
+data/raw/
+gaitpdb_data/
+*.zip
+
+# Model files (optional - these can be large; decide with your team)
+# Uncomment if you want to exclude trained models too:
+# models/*.pkl
+# models/*.tflite
+
+# OS/editor junk
+.DS_Store
+.vscode/
+
+# Flutter build artifacts (once you have the app)
+gait_screen_app/build/
+gait_screen_app/.dart_tool/
