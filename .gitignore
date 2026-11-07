@@ -20,3 +20,7 @@ gaitpdb_data/
 # Flutter build artifacts (once you have the app)
 gait_screen_app/build/
 gait_screen_app/.dart_tool/
+
+# Local Python environment and cache
+.venv/
+.cache/

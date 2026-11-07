@@ -1,0 +1,21 @@
+# Smartphone-Based Gait Analysis for Parkinson's Disease Screening
+# Dependencies for existing pipeline and subsequent TFLite conversion
+# Compatible with Python 3.11 and macOS Apple Silicon (arm64)
+
+# Data handling & numerical computation
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+
+# Signal processing (filtering & peak detection in src/preprocessing.py)
+scipy>=1.11.0
+
+# Machine learning & model persistence (src/train_model.py)
+scikit-learn>=1.4.0
+joblib>=1.3.0
+
+# Visualization & QA plots (src/test_preprocessing.py)
+matplotlib>=3.7.0
+
+# Deep learning & TFLite conversion (Phase 6 / build_guide.md)
+# Standard tensorflow on PyPI has native arm64 support for macOS on Python 3.11
+tensorflow>=2.15.0
