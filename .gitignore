@@ -24,3 +24,11 @@ gait_screen_app/.dart_tool/
 # Local Python environment and cache
 .venv/
 .cache/
+
+# Android Studio generated files
+ParkinsonsGaitAnalysis/.gradle/
+ParkinsonsGaitAnalysis/.idea/
+ParkinsonsGaitAnalysis/.kotlin/
+ParkinsonsGaitAnalysis/build/
+ParkinsonsGaitAnalysis/app/build/
+ParkinsonsGaitAnalysis/local.properties
